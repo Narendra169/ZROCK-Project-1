@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #333 url('header-background.jpg') no-repeat center;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.project-image {
+  text-align: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.materials, .steps {
+  margin-bottom: 20px;
+}
+
+.materials h3, .steps h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.materials ul, .steps ol {
+  list-style: none;
+}
+
+.materials ul li, .steps ol li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
